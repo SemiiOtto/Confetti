@@ -1,0 +1,30 @@
+// confetti animation
+// links at bottom 
+
+
+let x,y;
+let r,g,b;
+
+
+function setup() {
+createCanvas(800,700)
+  background(255);
+}
+
+function draw() {
+  
+   //createCanvas(700, 700);
+   x=random(width)
+  y=random(height)
+  r=random(15,252)
+  g=random(0,255)
+  b=random(0,255)
+ 
+  fill(r,g,b)
+  ellipse(x,y,30);
+  
+}
+
+//Links
+//Fullscreen: https://editor.p5js.org/SemiiOtto/full/nvMasQcp8
+//Editor: https://editor.p5js.org/SemiiOtto/sketches/nvMasQcp8
