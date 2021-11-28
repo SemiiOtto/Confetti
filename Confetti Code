@@ -20,7 +20,8 @@ function draw() {
   g=random(0,255)
   b=random(0,255)
  
-  fill(r,g,b)
+  fill(r,g,b,65)
+  noStroke()
   ellipse(x,y,30);
   
 }
